@@ -20,7 +20,7 @@ export interface GetAnimePage_Page_media_coverImage {
   /**
    * The cover image url of the media at medium size
    */
-  medium: string | null;
+  extraLarge: string | null;
 }
 
 export interface GetAnimePage_Page_media {

@@ -10,7 +10,7 @@ query GetAnimePage($page: Int!, $perPage: Int!){
       english
     }
     coverImage{
-      large
+      extraLarge
     }
     }
   }
