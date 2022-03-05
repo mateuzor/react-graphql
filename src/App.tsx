@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HomePage } from './app/containers/HomePage';
 
 const AppContainer = styled.div`
 width:100%;
@@ -11,7 +12,9 @@ align-items:center ;
 
 function App() {
   return (
-    <AppContainer>Hello World</AppContainer>
+    <AppContainer>
+      <HomePage />
+    </AppContainer>
   );
 }
 
